@@ -1,0 +1,52 @@
+Basic Programming Workshop (presented in Java, but c++ is almost identical for the basics)
+FIRST Robotics teams 3710 and 2809, presented by Mike Ounsworth.
+This workshop is intended to run 1.5 to 2 hours.
+
+- Basic data types
+- Variables
+- print statements
+- boolean logic
+- if statements
+
+- 15 minute break to let them try the excercises
+
+- functions
+- comments / good variable names
+- FRC Code
+
+
+
+
+
+
+
+
+Excersises
+(when it says 'ask the user' just make a variable called 'userInput' and pretend they typed it in, actually interacting with the user is a little more complicated than I have time to explain)
+
+Create a program to:
+Easy:
+- convert fahrenheit into celsius. (degF = (9 / 5) * degC + 32)
+- Ask the user for a number n, then roll an n-sided die.
+     double randomNumber = Math.random();  (will give a number between 0 and 1)
+- At the State Fair Pie Eating Contest all contestants in the heavyweight division must weigh within 30 pounds of 250 pounds (220 - 280). Write a program that asks for a contestant's weight and then says if the contestant is allowed in the contest.
+
+Harder:
+- Discounts at a store: a jar of peanut butter costs $2.79. Ask the user how many they want to buy and calculate their total. BUT if they buy more than 10 they get a 15% discount, and if they buy more than 20 they get a 25% discount.
+- Sorting: take three numbers and print out the smallest number. (A better version of this could do an arbitrary amount of numbers, but would need loops and arrays)
+
+Loops:
+- Calculate the sum of the numbers from 1,000 to 10,000. ie 1000 + 1001 + 1002 + ... + 10,000 (hint: it should be 49,505,500)
+
+
+
+
+
+
+
+
+
+Aditional 'Advanced' Topics:
+- Loops (not really used in FRC)
+- Arrays
+- Objects

@@ -1,0 +1,14 @@
+Advanced Programming Workshop
+FIRST Robotics team 3710.
+
+We should run the basic workshop first and then see what topics we want to do in the second session. Topics we could do include:
+
+- Review of material from Basic Workshop
+- Objects
+- Javadoc
+    - Look at use of objects in 3710 robot code
+    - Look at WPIlib
+- while loops / for loops - we don't use them in FIRST, but they're very useful
+- arrays
+- overview of FISRT sensors
+- what the different sensors look like in code.
