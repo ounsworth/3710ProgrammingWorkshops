@@ -1,0 +1,45 @@
+//package controllersDemo;
+
+//import Controller;
+import java.lang.Math;
+
+public class WeightedAverage extends Controller {
+
+	private double alpha = 0.2;
+	
+	public static String id = "WeightedAverage";
+	
+	public WeightedAverage ( double deadzone ) {
+		this.id = "WeightedAverage";
+		this.deadzone = deadzone;
+	}
+	
+	public void setAlpha( double newAlpha) {
+		if (newAlpha >= 1.0) 
+			alpha = 1.0;
+			
+		if (newAlpha <= 0.0)
+			alpha = 0.0; 
+			
+		alpha = newAlpha;
+	}
+	
+	public double getAlpha() {
+		return alpha;
+	}
+
+//	/** I should use the math.abs, but I don't have internet and I forget the import **/
+//	private double abs (double x) {
+//		if (x < 0)
+//			return -x;
+//		else
+//			return x;
+//	}
+
+	public void setNewValue (double newValue) {
+		if ( Math.abs( newValue - value ) < deadzone )
+			newValue = value;
+	
+		value = alpha * newValue + (1.0-alpha)*value;	
+	}
+}
